@@ -11,6 +11,6 @@ ar rcs libserial.a list_ports_win.o serial.o win.o
 ranlib libserial.a
 echo "*************** Building dynamic library: libserial.dll and libserial.dll.a (assuming Mingw32)... ***************"
 g++ -shared -o libserial.dll -D_WIN32 -D__MINGW32__ -Iinclude src/serial.cc src/impl/win.cc -Wl,--out-implib,libserial.dll.a -lsetupapi -luuid
-echo "*************** Building dynamic library with STATIC dependencies: libserial.dll and libserial.dll.a (assuming Mingw32)... ***************"
+echo "*************** Building dynamic library with STATIC dependencies: libserial_s.dll and libserial_s.dll.a (assuming Mingw32)... ***************"
 g++ -shared -o libserial_s.dll -D_WIN32 -D__MINGW32__ -Iinclude src/serial.cc src/impl/win.cc -Wl,--out-implib,libserial_s.dll.a -static-libstdc++ -static-libgcc -Wl,-Bstatic -lsetupapi -luuid
 echo "*************** Done. ***************"
