@@ -17,7 +17,7 @@ API Documentation: http://wjwwood.github.com/serial/doc/1.1.0/index.html
 
 Build:
 
-    * WindowsBuild.bat
+    * WindowsBuild.sh/.bat
     
     * LinuxBuild.sh
     
