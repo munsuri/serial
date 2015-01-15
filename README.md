@@ -13,11 +13,14 @@ API Documentation: http://wjwwood.github.com/serial/doc/1.1.0/index.html
 
 ### Dependencies
 
-* [None]: annoying build method removed. Simply run the appropiate script.
+* [None]: Removed annoying build method. Simply run the appropiate script.
 
 Build:
+
     * WindowsBuild.bat
+    
     * LinuxBuild.sh
+    
     * MacBuild.sh
 
 ### License
